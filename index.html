@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,7 +18,7 @@
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,15 +27,57 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<style>
-	.appIcons img{
-		border-radius: 15px;
-		border: 1px solid #999;
-		margin: 5px;
-		height:75px;
-		width:75px;
-	}
-	</style>
+    <style>
+        .appIcons img {
+            border-radius: 15px;
+            border: 1px solid #999;
+            margin: 5px;
+            height: 75px;
+            width: 75px;
+        }
+
+        .navbar-brand {
+            height: 60px;
+        }
+
+        .navbar-nav > li > a {
+            padding-top: 20px;
+        }
+
+        .navbar-brand img {
+            display: inline-block;
+            height: 35px;
+        }
+
+        /*.navbar-brand img:nth-last-of-type(2) {
+               margin-left:10px;
+            }*/
+
+        .logo1 {
+            padding-right: 21px;
+            border-right: 1px solid #b6b2b2;
+        }
+
+        .logo2 {
+            padding-left: 15px;
+        }
+
+        .textblue, footer a {
+            color: #01a6e6;
+        }
+
+        .btn-default {
+            background-color: #01a6e6;
+            color: #fff;
+            border: none;
+        }
+
+        .main::first-letter {
+            font-size: 150%;
+            color: #01a6e6;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,7 +93,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#home">Oracle Mobile</a>
+                <a class="navbar-brand topnav" href="#home">
+                    <img src="img\logos\sofbang-logo.png" class="logo1" />
+                    <img src="img\logos\oracle-logo.png" class="logo2" />
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -91,9 +136,9 @@
                             <li>
                                 <a href="http://sofbang.com" target="_blank" class="btn btn-default btn-lg"><span class="network-name">Sofbang</span></a>
                             </li>
-                           <!-- <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>-->
+                            <!-- <li>
+                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                             </li>-->
                         </ul>
                     </div>
                 </div>
@@ -104,45 +149,44 @@
 
     </div>
     <!-- /.intro-header -->
-
     <!-- Page Content -->
-	
-	<a  name="about"></a>
+
+    <a name="about"></a>
     <div class="content-section-a">
 
         <div class="container">
             <div class="row" style="text-align:center">
-			<p class="lead">Developed by Oracle Platinum Partner, Sofbang, Oracle Public Sector Mobile Showcase Applications demonstrate the power of the Oracle Mobile Application Framework (MAF) development environment. More importantly, they show the value of utilizing mobility in government, healthcare, and higher education enterprises. All of the showcase applications include integrated Oracle mobile messaging and high level integration story arcs. </p>
-			</div>
+                <p class="lead textblue main">Developed by Oracle Platinum Partner, Sofbang, Oracle Public Sector Mobile Showcase Applications demonstrate the power of the Oracle Mobile Application Framework (MAF) development environment. More importantly, they show the value of utilizing mobility in government, healthcare, and higher education enterprises. All of the showcase applications include integrated Oracle mobile messaging and high level integration story arcs. </p>
+            </div>
 
         </div>
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-a -->		
-			
-	<a  name="services"></a>
+    <!-- /.content-section-a -->
+
+    <a name="services"></a>
     <div class="content-section-a">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-				
+
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Citizen Engagement:<br>Metro 311</h2>
+                    <h2 class="section-heading textblue">Citizen Engagement:<br>Metro 311</h2>
                     <p class="lead">Citizens can take an active role in the care of their community by quickly logging and tracking service requests. Metro 311 also puts citizen service information in the palm of their hand.</p>
-					<ul class="list-inline ">
-                            <li>
-                                <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
-                            </li>
-                           <!--  <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">More Info</span></a>
-                            </li> -->
-                        </ul>
+                    <ul class="list-inline ">
+                        <li>
+                            <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
+                        </li>
+                        <!--  <li>
+                             <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">More Info</span></a>
+                         </li> -->
+                    </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/phones_2sm.png" alt="">
@@ -158,25 +202,25 @@
     <div class="content-section-b">
 
         <div class="container">
-		
+
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-					<h2 class="section-heading">Streamlined Applications:<br>Metro Schools</h2>
+                    <h2 class="section-heading textblue">Streamlined Applications:<br>Metro Schools</h2>
                     <p class="lead">Reduce paper processing with mobile application submissions. Metro Schools mobile application allows guardians to enroll their students right from their mobile phone. They can receive reminder notifications, access immunization records, and attach required documents without a trip to the post office.</p>
-                    
-					<ul class="list-inline ">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
-                            </li>
-                            <!-- <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">More Info</span></a>
-                            </li> -->
-                        </ul>
+
+                    <ul class="list-inline ">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
+                        </li>
+                        <!-- <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">More Info</span></a>
+                        </li> -->
+                    </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/metro_01.png" alt="">
@@ -197,9 +241,9 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Workforce Productivity:<br>Case Management</h2>
+                    <h2 class="section-heading textblue">Workforce Productivity:<br>Case Management</h2>
                     <p class="lead">Enable your mobile workforce to perform on the go. The Child Welfare mobile application demonstrates the power of productivity with the right information at the right time. </p>
-					<!-- <ul class="list-inline ">
+                    <!-- <ul class="list-inline ">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
                             </li>
@@ -208,7 +252,7 @@
                             </li>
                              <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">More Info</span></a>
-                            </li> 
+                            </li>
                         </ul> -->
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -221,37 +265,37 @@
 
     </div>
     <!-- /.content-section-a -->
-<div class="content-section-b appIcons">
+    <div class="content-section-b appIcons">
 
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-10  col-sm-12" style="text-align:center">
-               
-                   <h3>More from Oracle Applications</h3>
-                    
-                       
-					<ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://itunes.apple.com/us/artist/oracle-america-inc./id284793707?iPadSoftwarePage=2&iPhoneSoftwarePage=3#iPhoneSoftwarePage" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
-                            </li>
-                            <li>
-                                <a href="https://play.google.com/store/apps/developer?id=Oracle+America,+Inc." target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
-                            </li>
-                          
-                        </ul>
-						<img src="img/appIcons/1.png" /><img src="img/appIcons/2.png" /><img src="img/appIcons/3.png" /><img src="img/appIcons/4.jpeg" /><img src="img/appIcons/5.jpeg" /><img src="img/appIcons/6.jpeg" /><img src="img/appIcons/7.jpeg" />
+                <div class="col-lg-12  col-sm-12" style="text-align:center">
+
+                    <h3>More from Oracle Applications</h3>
+
+
+                    <ul class="list-inline intro-social-buttons">
+                        <li>
+                            <a href="https://itunes.apple.com/us/artist/oracle-america-inc./id284793707?iPadSoftwarePage=2&iPhoneSoftwarePage=3#iPhoneSoftwarePage" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/developer?id=Oracle+America,+Inc." target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
+                        </li>
+
+                    </ul>
+                    <img src="img/appIcons/1.png" /><img src="img/appIcons/2.png" /><img src="img/appIcons/3.png" /><img src="img/appIcons/4.jpeg" /><img src="img/appIcons/5.jpeg" /><img src="img/appIcons/6.jpeg" /><img src="img/appIcons/7.jpeg" />
                 </div>
-                
+
             </div>
-			
+
 
         </div>
         <!-- /.container -->
 
     </div>
     <!-- /.content-section-b -->
-	<a  name="contact"></a>
+    <a name="contact"></a>
     <div class="banner">
 
         <div class="container">
@@ -268,9 +312,9 @@
                         <li>
                             <a href="mailto:info@sofbang.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Contact Sofbang</span></a>
                         </li>
-                       <!--  <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">Learn More</span></a>
-                        </li> -->
+                        <!--  <li>
+                             <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">Learn More</span></a>
+                         </li> -->
                     </ul>
                 </div>
             </div>
@@ -280,7 +324,6 @@
 
     </div>
     <!-- /.banner -->
-
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -303,7 +346,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Sofbang 2015. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; Sofbang LLC 2015. All Rights Reserved</p>
                 </div>
             </div>
         </div>
