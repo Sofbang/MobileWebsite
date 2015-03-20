@@ -55,15 +55,19 @@
 
         .logo1 {
             padding-right: 21px;
-            border-right: 1px solid #b6b2b2;
+            border-right: 1px solid rgba(182, 178, 178, 0.37);
         }
 
         .logo2 {
             padding-left: 15px;
         }
 
-        .textblue, footer a {
-            color: #01a6e6;
+        .textblue {
+            color: rgb(1, 166, 230);
+font-size: 20px;
+        }
+ footer a {
+            color: rgb(1, 166, 230);
         }
 
         .btn-default {
@@ -72,11 +76,24 @@
             border: none;
         }
 
-        .main::first-letter {
+      .btn-default-oracle {
+            background-color: rgb(223, 1, 34);
+            color: #fff;
+            border: none;
+        }
+
+       /* .main::first-letter {
             font-size: 150%;
             color: #01a6e6;
             font-weight: bold;
-        }
+        }*/
+
+h2.section-heading
+{
+color:rgb(1, 166, 230);
+}
+
+.firstcharacter { float: left; color: #01a6e6; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px;  }
     </style>
 </head>
 
@@ -134,7 +151,7 @@
                                 <a href="https://oracle.com/mobile" target="_blank" class="btn btn-default btn-lg"> <span class="network-name">Oracle Mobile</span></a>
                             </li> &
                             <li>
-                                <a href="http://sofbang.com" target="_blank" class="btn btn-default btn-lg"><span class="network-name">Sofbang</span></a>
+                                <a href="http://sofbang.com/WhatWeDo/Consulting/MobilityConsulting.aspx" target="_blank" class="btn btn-default btn-lg"><span class="network-name">Sofbang</span></a>
                             </li>
                             <!-- <li>
                                  <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
@@ -155,8 +172,8 @@
     <div class="content-section-a">
 
         <div class="container">
-            <div class="row" style="text-align:center">
-                <p class="lead textblue main">Developed by Oracle Platinum Partner, Sofbang, Oracle Public Sector Mobile Showcase Applications demonstrate the power of the Oracle Mobile Application Framework (MAF) development environment. More importantly, they show the value of utilizing mobility in government, healthcare, and higher education enterprises. All of the showcase applications include integrated Oracle mobile messaging and high level integration story arcs. </p>
+            <div class="row" >
+                <p class="lead textblue main"><span class="firstcharacter">D</span>eveloped by Oracle Platinum Partner, Sofbang, Oracle Public Sector Mobile Showcase Applications demonstrate the power of the Oracle Mobile Application Framework (MAF) development environment. More importantly, they show the value of utilizing mobility in government, healthcare, and higher education enterprises. All of the showcase applications include integrated Oracle mobile messaging and high level integration story arcs. </p>
             </div>
 
         </div>
@@ -174,7 +191,7 @@
 
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading textblue">Citizen Engagement:<br>Metro 311</h2>
+                    <h2 class="section-heading">Citizen Engagement:<br>Metro 311</h2>
                     <p class="lead">Citizens can take an active role in the care of their community by quickly logging and tracking service requests. Metro 311 also puts citizen service information in the palm of their hand.</p>
                     <ul class="list-inline ">
                         <li>
@@ -207,7 +224,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading textblue">Streamlined Applications:<br>Metro Schools</h2>
+                    <h2 class="section-heading">Streamlined Applications:<br>Metro Schools</h2>
                     <p class="lead">Reduce paper processing with mobile application submissions. Metro Schools mobile application allows guardians to enroll their students right from their mobile phone. They can receive reminder notifications, access immunization records, and attach required documents without a trip to the post office.</p>
 
                     <ul class="list-inline ">
@@ -241,7 +258,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading textblue">Workforce Productivity:<br>Case Management</h2>
+                    <h2 class="section-heading">Workforce Productivity:<br>Case Management</h2>
                     <p class="lead">Enable your mobile workforce to perform on the go. The Child Welfare mobile application demonstrates the power of productivity with the right information at the right time. </p>
                     <!-- <ul class="list-inline ">
                             <li>
@@ -272,15 +289,16 @@
             <div class="row">
                 <div class="col-lg-12  col-sm-12" style="text-align:center">
 
-                    <h3>More from Oracle Applications</h3>
+                    <h3 style="
+   color: rgb(222, 1, 34);">More from Oracle Applications</h3>
 
 
-                    <ul class="list-inline intro-social-buttons">
+                    <ul class="list-inline intro-social-buttons" style="margin-bottom: 45px;">
                         <li>
-                            <a href="https://itunes.apple.com/us/artist/oracle-america-inc./id284793707?iPadSoftwarePage=2&iPhoneSoftwarePage=3#iPhoneSoftwarePage" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
+                            <a href="https://itunes.apple.com/us/artist/oracle-america-inc./id284793707?iPadSoftwarePage=2&iPhoneSoftwarePage=3#iPhoneSoftwarePage" class="btn btn-default btn-lg btn-default-oracle " target="_blank"><i class="fa fa-apple fa-fw"></i> <span class="network-name">iOS</span></a>
                         </li>
                         <li>
-                            <a href="https://play.google.com/store/apps/developer?id=Oracle+America,+Inc." target="_blank" class="btn btn-default btn-lg"><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
+                            <a href="https://play.google.com/store/apps/developer?id=Oracle+America,+Inc." target="_blank" class="btn btn-default btn-lg btn-default-oracle "><i class="fa fa-android fa-fw"></i> <span class="network-name">Android</span></a>
                         </li>
 
                     </ul>
@@ -307,10 +325,10 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="https://oracle.com/mobile" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Contact Oracle</span></a>
+                            <a href="https://oracle.com/mobile" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-external-link fa-fw"></i> <span class="network-name">Contact Oracle</span></a>
                         </li>
                         <li>
-                            <a href="mailto:info@sofbang.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Contact Sofbang</span></a>
+                            <a href="mailto:info@sofbang.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-external-link  fa-fw"></i> <span class="network-name">Contact Sofbang</span></a>
                         </li>
                         <!--  <li>
                              <a href="#" class="btn btn-default btn-lg"><i class="fa fa-info fa-fw"></i> <span class="network-name">Learn More</span></a>
