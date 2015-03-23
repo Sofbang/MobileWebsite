@@ -32,6 +32,7 @@ h6 {
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    margin-top:70px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -162,9 +163,147 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 p.copyright {
     margin: 15px 0 0;
 }
+
+
+.appIcons img {
+            border-radius: 15px;
+            border: 1px solid #999;
+            margin: 5px;
+            height: 75px;
+            width: 75px;
+        }
+
+        .navbar-brand {
+            height: 70px;
+        }
+
+        .navbar-nav > li > a {
+            padding-top: 25px;
+        }
+
+        .navbar-brand img {
+            display: inline-block;
+            height: 45px;
+        }
+
+        /*.navbar-brand img:nth-last-of-type(2) {
+               margin-left:10px;
+            }*/
+
+        .logo1 {
+            padding-right: 21px;
+            border-right: 1px solid rgba(182, 178, 178, 0.37);
+        }
+
+        .logo2 {
+            padding-left: 15px;
+        }
+
+        .textblue {
+            color: rgb(1, 166, 230);
+            font-size: 20px;
+        }
+.main
+{text-align: justify;
+}
+
+        footer a {
+            color: rgb(1, 166, 230);
+        }
+
+        .btn-default {
+            background-color: #01a6e6;
+            color: #fff;
+            border: none;
+        }
+
+        .btn-default-oracle {
+            background-color: rgb(223, 1, 34);
+            color: #fff;
+            border: none;
+        }
+
+        /* .main::first-letter {
+            font-size: 150%;
+            color: #01a6e6;
+            font-weight: bold;
+        }*/
+
+        h2.section-heading {
+            color: rgb(1, 166, 230);
+        }
+
+        .firstcharacter {
+            float: left;
+            color: #01a6e6;
+            font-size: 75px;
+            line-height: 60px;
+            padding-top: 4px;
+            padding-right: 8px;
+            padding-left: 3px;
+        }
+
+        .panel
+        {
+            border:none;
+            box-shadow:none;
+        }
+        .panel-title {
+            font-size: 20px;
+        }
+        .panel-title a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            /*.panel-title a:hover, .panel-title a:active, .panel-title a:visited {
+                text-decoration: none;
+                color: rgb(1, 166, 230);
+            }*/
+
+        .panel-default > .panel-heading {
+            color: rgb(1, 166, 230);
+            background-color: rgb(245, 245, 245);
+            border-color: rgb(221, 221, 221);
+        }
+
+       
+
+        @media(max-width:767px) {
+            .list-inline 
+            {
+                margin-bottom:50px;
+
+            }
+
+            .list-inline li
+            {
+                margin-right:20px;
+            }
+
+            .topapp
+            {padding-top:20px !important;}
+
+            .main
+{text-align: left;
+}
+
+            .navbar-brand img {
+                height:35px;
+            }
+
+             .navbar-brand {
+            height: 60px;
+        }
+
+            .intro-header {
+                margin-top:60px;
+            }
+
+        }
